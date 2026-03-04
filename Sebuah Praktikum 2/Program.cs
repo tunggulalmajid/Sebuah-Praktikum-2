@@ -28,7 +28,7 @@ class Rumah
     public void InfoRumah()
     {
         this.TampilkanInfo(); // memanggil method miliknya sendiri
-        Console.WriteLine("INFO RUMAH BERHASIL DIDAPATKAN");
+        Console.WriteLine("INFO RUMAH BERHASIL DIDAPATKAN dari method Info Rumah");
     }
 }
 
@@ -79,7 +79,7 @@ class Program
         Console.WriteLine(" ");
         rumahKecil.TampilkanInfo();
         Console.WriteLine(" ");
-        rumahBesar.TampilkanInfo();
+        //rumahBesar.TampilkanInfo();
         Console.WriteLine(" ");
         rumahBesar.InfoRumah();
 
